@@ -16,6 +16,19 @@ body {
     background-color: #EB4432 !important;
 }
 
+.text-primary {
+    color: #EB4432 !important;
+}
+
+.ghost {
+    background-color: transparent !important;
+}
+
+.ghost:hover {
+    background-color: rgba(235, 68, 50, .35) !important;
+    transition: 200ms;
+}
+
 button:hover {
     filter: brightness(.9);
     transition: 200ms;
