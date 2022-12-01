@@ -15,8 +15,6 @@
     <div class="container col-12 col-sm-8 col-lg-6 col-xl-4 text-center">
         <h1 class="fw-bold">Seu IMC é {{ number_format($imc, 2, ",", ".") }}</h1>
         <hr>
-    </div>
-    <div>
         <h2 class="mt-4">
             @if ($imc < 18.5)
                 Você está abaixo do peso
@@ -37,8 +35,9 @@
                 Você está com obesidade grau III (mórbido)
             @endif
         </h2>
+
+        <a href="/" class="col-2 mt-5 btn ghost text-primary">Voltar</a>
     </div>
-    <a href="/" class="col-2 mt-5 btn ghost text-primary">Voltar</a>
     <script src="/scripts/bootstrap.bundle.min.js"></script>
 </body>
 </html>
